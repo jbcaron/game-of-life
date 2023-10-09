@@ -164,7 +164,7 @@ impl Board {
 
     fn print(&self, clear: bool) {
         if clear {
-            for _ in 0..self.heigftkit = "^0.1.0"ht {
+            for _ in 0..self.height {
 				// clear current line
                 print!("\x1B[2K");
 				// move cursor to the beginning of the line
